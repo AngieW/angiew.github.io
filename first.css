@@ -1,0 +1,167 @@
+<style>
+.button {
+	
+	    align-content: center;
+        margin:0 auto;
+
+	display: block;
+	height: 40px;
+	width: 200px;
+	background: #f68a84;
+	align: center;
+	color: #f2f2f2;
+	text-align: center;
+	font: 25px Verdana, Geneva, sans-serif;	
+	box-shadow: 5px 5px 50px #888888;
+	    border-radius: 0%;
+
+}
+
+.myButton { /*this button is used to change themes */
+	background-color:#f68a84;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 30px;
+	text-decoration:none;
+	cursor:pointer;
+	text-shadow:0px 1px 0px #3d768a;
+	margin: 5px;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+a {
+			color: #f68a84;
+	
+}
+a.button { 
+	text-decoration: none;
+	padding-top: 3%;
+	padding-botton: 5%;
+	
+}
+body {background-color:#f2f2f2;
+background-image:url("Apple-MacBook-Air-Silver-Mouse-Laptop-WallpapersByte-com-2560x1600.jpg");
+
+background-repeat:repeat-y;
+
+background-position:top center;
+
+	background-attachment:fixed;
+	background-size: 100%;
+	    
+
+
+}
+
+
+.action { /*This it my content box */
+	background-opacity: 0.4;
+    background-filter: alpha(opacity=40); /* For IE8 and earlier */
+	
+width: 70%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+
+        margin:0 auto;
+        padding-bottom: 100px;
+      }
+p {
+		color: #4d4d4d;
+		padding-left: 5px;
+		padding-right: 5px;
+		font: 11px Verdana, Geneva, sans-serif;	
+
+}
+	em {
+		font: 25px Verdana, Geneva, sans-serif;	
+		color: #f68a84;
+		
+	}
+.header {
+		align: center;
+	    align-content: center;
+        margin:0 auto;
+        	text-align: center;
+
+
+}
+
+.logo{
+	        margin:0 auto;
+	        width: 30%;
+
+}
+
+h1 { /* I use h1 to dispaly my logo */
+	text-decoration:none;
+	border:2px solid #f68a84;
+	width : 150px;
+	height : 117px;
+	margin : 0;
+	padding-bottom: 50px;
+	background : url(angie.png) no-repeat 0 0;
+}
+
+h2 {
+	font: 30px Verdana, Geneva, sans-serif;	
+		    text-transform: uppercase;
+color: #4d4d4d;
+		padding-top: 30px;
+			margin : 0;
+
+}
+.dev {
+	color: #6bdb02;
+}
+blockquote { /* style for my favorite quote */
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+ul{
+		color: #4d4d4d;
+		padding-left: 5px;
+		padding-right: 5px;
+		font: 11px Verdana, Geneva, sans-serif;
+	
+	
+}
+blockquote cite { /*dash  specs*/
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before { /*dash */
+content: "\2014 \2009";
+}
+
+
+
+blockquote:before { /*large quote symbol */
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+
