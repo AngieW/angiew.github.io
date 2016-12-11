@@ -65,6 +65,10 @@ background-position:top center;
 
 }
 
+.resume
+{
+font-weight:bold;font-style:oblique;color:#474747;letter-spacing:1pt;word-spacing:2pt;font-size:15px;text-align:left;font-family:arial, helvetica, sans-serif;line-height:1;
+}
 
 .action { /*This it my content box */
 	opacity: 0.8;
